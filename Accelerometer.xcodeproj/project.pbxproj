@@ -21,26 +21,7 @@
 		62A240F71FD2F99300A586B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62A240F61FD2F99300A586B4 /* Assets.xcassets */; };
 		62A240FA1FD2F99300A586B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A240F81FD2F99300A586B4 /* LaunchScreen.storyboard */; };
 		62A240FD1FD2F99300A586B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A240FC1FD2F99300A586B4 /* main.m */; };
-		62A241071FD2F99400A586B4 /* AccelerometerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A241061FD2F99400A586B4 /* AccelerometerTests.m */; };
-		62A241121FD2F99400A586B4 /* AccelerometerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A241111FD2F99400A586B4 /* AccelerometerUITests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		62A241031FD2F99400A586B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62A240E21FD2F99300A586B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62A240E91FD2F99300A586B4;
-			remoteInfo = Accelerometer;
-		};
-		62A2410E1FD2F99400A586B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62A240E21FD2F99300A586B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62A240E91FD2F99300A586B4;
-			remoteInfo = Accelerometer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		623C35591FD82DA500D15CD6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -60,12 +41,6 @@
 		62A240F91FD2F99300A586B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62A240FB1FD2F99300A586B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62A240FC1FD2F99300A586B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62A241021FD2F99400A586B4 /* AccelerometerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A241061FD2F99400A586B4 /* AccelerometerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerTests.m; sourceTree = "<group>"; };
-		62A241081FD2F99400A586B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62A2410D1FD2F99400A586B4 /* AccelerometerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A241111FD2F99400A586B4 /* AccelerometerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccelerometerUITests.m; sourceTree = "<group>"; };
-		62A241131FD2F99400A586B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +51,6 @@
 				623C35601FD9072D00D15CD6 /* CoreMotion.framework in Frameworks */,
 				623C355C1FD8EC3B00D15CD6 /* Foundation.framework in Frameworks */,
 				623C355A1FD82DA500D15CD6 /* AVFoundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A240FF1FD2F99400A586B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A2410A1FD2F99400A586B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				62A240EC1FD2F99300A586B4 /* Accelerometer */,
-				62A241051FD2F99400A586B4 /* AccelerometerTests */,
-				62A241101FD2F99400A586B4 /* AccelerometerUITests */,
 				62A240EB1FD2F99300A586B4 /* Products */,
 				623C35581FD82DA400D15CD6 /* Frameworks */,
 			);
@@ -121,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				62A240EA1FD2F99300A586B4 /* Accelerometer.app */,
-				62A241021FD2F99400A586B4 /* AccelerometerTests.xctest */,
-				62A2410D1FD2F99400A586B4 /* AccelerometerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,24 +104,6 @@
 			path = Accelerometer;
 			sourceTree = "<group>";
 		};
-		62A241051FD2F99400A586B4 /* AccelerometerTests */ = {
-			isa = PBXGroup;
-			children = (
-				62A241061FD2F99400A586B4 /* AccelerometerTests.m */,
-				62A241081FD2F99400A586B4 /* Info.plist */,
-			);
-			path = AccelerometerTests;
-			sourceTree = "<group>";
-		};
-		62A241101FD2F99400A586B4 /* AccelerometerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				62A241111FD2F99400A586B4 /* AccelerometerUITests.m */,
-				62A241131FD2F99400A586B4 /* Info.plist */,
-			);
-			path = AccelerometerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,42 +124,6 @@
 			productReference = 62A240EA1FD2F99300A586B4 /* Accelerometer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62A241011FD2F99400A586B4 /* AccelerometerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62A241191FD2F99400A586B4 /* Build configuration list for PBXNativeTarget "AccelerometerTests" */;
-			buildPhases = (
-				62A240FE1FD2F99400A586B4 /* Sources */,
-				62A240FF1FD2F99400A586B4 /* Frameworks */,
-				62A241001FD2F99400A586B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62A241041FD2F99400A586B4 /* PBXTargetDependency */,
-			);
-			name = AccelerometerTests;
-			productName = AccelerometerTests;
-			productReference = 62A241021FD2F99400A586B4 /* AccelerometerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		62A2410C1FD2F99400A586B4 /* AccelerometerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62A2411C1FD2F99400A586B4 /* Build configuration list for PBXNativeTarget "AccelerometerUITests" */;
-			buildPhases = (
-				62A241091FD2F99400A586B4 /* Sources */,
-				62A2410A1FD2F99400A586B4 /* Frameworks */,
-				62A2410B1FD2F99400A586B4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62A2410F1FD2F99400A586B4 /* PBXTargetDependency */,
-			);
-			name = AccelerometerUITests;
-			productName = AccelerometerUITests;
-			productReference = 62A2410D1FD2F99400A586B4 /* AccelerometerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -233,16 +136,6 @@
 					62A240E91FD2F99300A586B4 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-					};
-					62A241011FD2F99400A586B4 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62A240E91FD2F99300A586B4;
-					};
-					62A2410C1FD2F99400A586B4 = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 62A240E91FD2F99300A586B4;
 					};
 				};
 			};
@@ -260,8 +153,6 @@
 			projectRoot = "";
 			targets = (
 				62A240E91FD2F99300A586B4 /* Accelerometer */,
-				62A241011FD2F99400A586B4 /* AccelerometerTests */,
-				62A2410C1FD2F99400A586B4 /* AccelerometerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -274,20 +165,6 @@
 				62A240FA1FD2F99300A586B4 /* LaunchScreen.storyboard in Resources */,
 				62A240F71FD2F99300A586B4 /* Assets.xcassets in Resources */,
 				62A240F51FD2F99300A586B4 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A241001FD2F99400A586B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A2410B1FD2F99400A586B4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,36 +186,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62A240FE1FD2F99400A586B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62A241071FD2F99400A586B4 /* AccelerometerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62A241091FD2F99400A586B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62A241121FD2F99400A586B4 /* AccelerometerUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62A241041FD2F99400A586B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62A240E91FD2F99300A586B4 /* Accelerometer */;
-			targetProxy = 62A241031FD2F99400A586B4 /* PBXContainerItemProxy */;
-		};
-		62A2410F1FD2F99400A586B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62A240E91FD2F99300A586B4 /* Accelerometer */;
-			targetProxy = 62A2410E1FD2F99400A586B4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		62A240F31FD2F99300A586B4 /* Main.storyboard */ = {
@@ -494,60 +342,6 @@
 			};
 			name = Release;
 		};
-		62A2411A1FD2F99400A586B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccelerometerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greedydev.AccelerometerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
-			};
-			name = Debug;
-		};
-		62A2411B1FD2F99400A586B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccelerometerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greedydev.AccelerometerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accelerometer.app/Accelerometer";
-			};
-			name = Release;
-		};
-		62A2411D1FD2F99400A586B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccelerometerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greedydev.AccelerometerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Accelerometer;
-			};
-			name = Debug;
-		};
-		62A2411E1FD2F99400A586B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AccelerometerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = greedydev.AccelerometerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Accelerometer;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -565,24 +359,6 @@
 			buildConfigurations = (
 				62A241171FD2F99400A586B4 /* Debug */,
 				62A241181FD2F99400A586B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62A241191FD2F99400A586B4 /* Build configuration list for PBXNativeTarget "AccelerometerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62A2411A1FD2F99400A586B4 /* Debug */,
-				62A2411B1FD2F99400A586B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62A2411C1FD2F99400A586B4 /* Build configuration list for PBXNativeTarget "AccelerometerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62A2411D1FD2F99400A586B4 /* Debug */,
-				62A2411E1FD2F99400A586B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
