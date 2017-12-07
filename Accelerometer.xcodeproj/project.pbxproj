@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		623C355A1FD82DA500D15CD6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623C35591FD82DA500D15CD6 /* AVFoundation.framework */; };
+		623C355C1FD8EC3B00D15CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623C355B1FD8EC3B00D15CD6 /* Foundation.framework */; };
+		623C355D1FD8EC4800D15CD6 /* Foundation.framework in Sources */ = {isa = PBXBuildFile; fileRef = 623C355B1FD8EC3B00D15CD6 /* Foundation.framework */; };
+		623C355E1FD8EC4800D15CD6 /* AVFoundation.framework in Sources */ = {isa = PBXBuildFile; fileRef = 623C35591FD82DA500D15CD6 /* AVFoundation.framework */; };
+		623C35601FD9072D00D15CD6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 623C355F1FD9072D00D15CD6 /* CoreMotion.framework */; };
+		623C35611FD9073300D15CD6 /* CoreMotion.framework in Sources */ = {isa = PBXBuildFile; fileRef = 623C355F1FD9072D00D15CD6 /* CoreMotion.framework */; };
+		623C35641FD943E100D15CD6 /* ExitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 623C35631FD943E100D15CD6 /* ExitButton.m */; };
+		623C35671FD949E100D15CD6 /* CameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 623C35661FD949E100D15CD6 /* CameraController.m */; };
 		62A240EF1FD2F99300A586B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A240EE1FD2F99300A586B4 /* AppDelegate.m */; };
 		62A240F21FD2F99300A586B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A240F11FD2F99300A586B4 /* ViewController.m */; };
 		62A240F51FD2F99300A586B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62A240F31FD2F99300A586B4 /* Main.storyboard */; };
@@ -35,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		623C35591FD82DA500D15CD6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		623C355B1FD8EC3B00D15CD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		623C355F1FD9072D00D15CD6 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		623C35621FD943E100D15CD6 /* ExitButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExitButton.h; sourceTree = "<group>"; };
+		623C35631FD943E100D15CD6 /* ExitButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExitButton.m; sourceTree = "<group>"; };
+		623C35651FD949E100D15CD6 /* CameraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraController.h; sourceTree = "<group>"; };
+		623C35661FD949E100D15CD6 /* CameraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraController.m; sourceTree = "<group>"; };
 		62A240EA1FD2F99300A586B4 /* Accelerometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accelerometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A240ED1FD2F99300A586B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		62A240EE1FD2F99300A586B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623C35601FD9072D00D15CD6 /* CoreMotion.framework in Frameworks */,
+				623C355C1FD8EC3B00D15CD6 /* Foundation.framework in Frameworks */,
+				623C355A1FD82DA500D15CD6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		623C35581FD82DA400D15CD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				623C355F1FD9072D00D15CD6 /* CoreMotion.framework */,
+				623C355B1FD8EC3B00D15CD6 /* Foundation.framework */,
+				623C35591FD82DA500D15CD6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62A240E11FD2F99300A586B4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,7 @@
 				62A241051FD2F99400A586B4 /* AccelerometerTests */,
 				62A241101FD2F99400A586B4 /* AccelerometerUITests */,
 				62A240EB1FD2F99300A586B4 /* Products */,
+				623C35581FD82DA400D15CD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +139,10 @@
 				62A240F81FD2F99300A586B4 /* LaunchScreen.storyboard */,
 				62A240FB1FD2F99300A586B4 /* Info.plist */,
 				62A240FC1FD2F99300A586B4 /* main.m */,
+				623C35621FD943E100D15CD6 /* ExitButton.h */,
+				623C35631FD943E100D15CD6 /* ExitButton.m */,
+				623C35651FD949E100D15CD6 /* CameraController.h */,
+				623C35661FD949E100D15CD6 /* CameraController.m */,
 			);
 			path = Accelerometer;
 			sourceTree = "<group>";
@@ -265,6 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				623C35641FD943E100D15CD6 /* ExitButton.m in Sources */,
+				623C35611FD9073300D15CD6 /* CoreMotion.framework in Sources */,
+				623C35671FD949E100D15CD6 /* CameraController.m in Sources */,
+				623C355D1FD8EC4800D15CD6 /* Foundation.framework in Sources */,
+				623C355E1FD8EC4800D15CD6 /* AVFoundation.framework in Sources */,
 				62A240F21FD2F99300A586B4 /* ViewController.m in Sources */,
 				62A240FD1FD2F99300A586B4 /* main.m in Sources */,
 				62A240EF1FD2F99300A586B4 /* AppDelegate.m in Sources */,
@@ -431,7 +469,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUZWG5ZMQL;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = greedydev.Accelerometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CUZWG5ZMQL;
 				INFOPLIST_FILE = Accelerometer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = greedydev.Accelerometer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
